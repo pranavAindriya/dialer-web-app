@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Box, Grid, Paper, Tab, Tabs, useTheme } from "@mui/material";
-import {
-  AddressBook,
-  ClockCounterClockwise,
-} from "@phosphor-icons/react/dist/ssr";
+import { AddressBook, ClockCounterClockwise } from "@phosphor-icons/react";
 import RecentCalls from "../../components/RecentCalls";
 import Contacts from "../../components/Contacts";
 import Dialer from "../../components/Dialer";

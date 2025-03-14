@@ -12,6 +12,5 @@ export default {
   // https://vike.dev/head-tags
   title: "Dialer",
   description: "Demo dialer app",
-  prerender: true,
   extends: vikeReact,
 } satisfies Config;
