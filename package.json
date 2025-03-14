@@ -5,17 +5,20 @@
     "preview": "vike preview"
   },
   "dependencies": {
-    "vike": "^0.4.224",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.7",
     "@vitejs/plugin-react": "^4.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "vike": "^0.4.224",
     "vike-react": "^0.5.13"
   },
   "devDependencies": {
-    "typescript": "^5.8.2",
-    "vite": "^6.2.1",
     "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4"
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1"
   },
   "type": "module"
 }
