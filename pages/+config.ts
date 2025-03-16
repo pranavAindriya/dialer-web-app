@@ -8,6 +8,7 @@ import Layout from "../layouts/LayoutDefault.js";
 export default {
   // https://vike.dev/Layout
   Layout,
+  prerender: true,
 
   // https://vike.dev/head-tags
   title: "Dialer",
