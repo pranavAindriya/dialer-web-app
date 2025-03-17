@@ -1,5 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "rewrites": [{ "source": "/(.client*)", "destination": "dist/client" }]
+  "rewrites": [
+    {
+      "source": "/((?!assets/).*)",
+      "destination": "/api/ssr.js"
+    }
+  ]
 }
